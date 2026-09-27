@@ -1,0 +1,27 @@
+name = "alhuzali-portfolio-admin"
+main = "worker/index.mjs"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[assets]
+directory = "./admin"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+PUBLIC_ORIGIN = "https://alhuzali.com"
+ADMIN_ORIGIN = "https://admin.alhuzali.com"
+GITHUB_OWNER = "hussamalhuzali"
+GITHUB_REPO = "alhuzali-portfolio"
+GITHUB_BRANCH = "main"
+OWNER_GITHUB_ID = "94220344"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portfolio-content"
+database_id = "REPLACE_WITH_CREATED_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "alhuzali-portfolio-media"

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "name": "Hussam J. Alhuzali",
+    "eyebrow": "Business analysis · Business intelligence · Project management",
+    "headline": "Business questions. Clearer decisions.",
+    "summary": "I translate business needs into practical data and technology solutions—from requirements and delivery to dashboards that help people make informed decisions.",
+    "about": "My work connects business analysis, project management, and business intelligence. Across government technology initiatives, I gather requirements, align stakeholders, and turn business questions into governed reporting solutions.",
+    "location": "Riyadh, Saudi Arabia",
+    "email": "hussam@alhuzali.com",
+    "linkedin": "",
+    "photo": "",
+    "resume": "",
+    "credentials": [
+      "PMP",
+      "PSM I"
+    ]
+  },
+  "capabilities": [
+    {
+      "title": "Business analysis",
+      "description": "Turning stakeholder needs into clear requirements, process maps, user stories, and acceptance criteria.",
+      "tools": [
+        "Requirements",
+        "Business cases",
+        "Jira",
+        "Visio"
+      ]
+    },
+    {
+      "title": "Business intelligence",
+      "description": "Designing semantic models, useful KPIs, and reporting experiences around real business questions.",
+      "tools": [
+        "Power BI",
+        "DAX",
+        "SQL",
+        "Report Builder"
+      ]
+    },
+    {
+      "title": "Governance & quality",
+      "description": "Building access controls and quality checks into the way analytics is delivered and maintained.",
+      "tools": [
+        "RLS",
+        "Data quality",
+        "DataOps",
+        "Risk controls"
+      ]
+    },
+    {
+      "title": "Project & product delivery",
+      "description": "Connecting priorities, stakeholders, and delivery through Agile practices and requirements traceability.",
+      "tools": [
+        "Project management",
+        "Scrum",
+        "Kanban",
+        "Backlog management"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Project Management Specialist",
+      "focus": "Business Intelligence",
+      "organization": "National Technology Development Program",
+      "period": "Oct 2025 — Present",
+      "type": "Full-time",
+      "points": [
+        "Built and launched NTDP Intelligence Products, connecting APIs, semantic models, automated refresh, and controlled distribution.",
+        "Translate stakeholder needs into requirements, KPIs, user stories, and acceptance criteria.",
+        "Manage platform delivery, data quality, and role-based access across web and mobile reporting."
+      ]
+    },
+    {
+      "role": "Project Management Specialist",
+      "focus": "MCIT PMO",
+      "organization": "Ministry of Communications & Information Technology",
+      "period": "Dec 2024 — Jun 2025",
+      "type": "Tamheer internship",
+      "points": [
+        "Developed Power BI dashboards for project performance and management reporting.",
+        "Created an integrated vendor planning template and Gantt-based timeline for project tracking.",
+        "Supported project execution, RFP processes, and standardized documentation."
+      ]
+    },
+    {
+      "role": "Business Intelligence Specialist",
+      "focus": "Business requirements",
+      "organization": "Ministry of Hajj & Umrah",
+      "period": "Mar 2024 — Jun 2024",
+      "type": "Collaborative training",
+      "points": [
+        "Gathered stakeholder requirements and supported business requirements documents.",
+        "Prepared structured business cases and process diagrams to improve communication between business and IT."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Business Administration",
+      "institution": "Umm Al-Qura University",
+      "period": "Aug 2021 — Jun 2024"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Project Management Professional",
+      "issuer": "PMI",
+      "status": "Certified",
+      "short": "PMP",
+      "url": ""
+    },
+    {
+      "name": "Professional Scrum Master I",
+      "issuer": "Scrum.org",
+      "status": "Certified",
+      "short": "PSM I",
+      "url": ""
+    },
+    {
+      "name": "Power BI Data Analyst (PL-300)",
+      "issuer": "Microsoft certification preparation",
+      "status": "Preparation",
+      "short": "PL-300",
+      "url": ""
+    },
+    {
+      "name": "Agile Leadership Specialization",
+      "issuer": "University of Colorado",
+      "status": "Learning credential",
+      "short": "Agile",
+      "url": ""
+    },
+    {
+      "name": "AI Engineering Professional Certificate",
+      "issuer": "IBM",
+      "status": "Learning credential",
+      "short": "AI",
+      "url": ""
+    },
+    {
+      "name": "DevOps & Software Engineering Professional Certificate",
+      "issuer": "IBM",
+      "status": "Learning credential",
+      "short": "DevOps",
+      "url": ""
+    },
+    {
+      "name": "Data Science Fundamentals with Python and SQL",
+      "issuer": "IBM",
+      "status": "Learning credential",
+      "short": "Data",
+      "url": ""
+    },
+    {
+      "name": "DevOps on AWS Specialization",
+      "issuer": "AWS",
+      "status": "Learning credential",
+      "short": "AWS",
+      "url": ""
+    }
+  ],
+  "sections": [],
+  "projects": [
+    {
+      "id": "ntdp-intelligence",
+      "slug": "ntdp-intelligence",
+      "previousSlugs": [],
+      "title": "NTDP Intelligence Products",
+      "brief": "A governed Power BI platform connecting data, business questions, and executive reporting.",
+      "category": "Business intelligence",
+      "type": "documentation",
+      "featured": true,
+      "published": true,
+      "tools": [
+        "Power BI",
+        "DAX",
+        "API integration",
+        "Report Builder"
+      ],
+      "audience": "Business leaders, program teams, and analytics practitioners.",
+      "role": "Platform architecture, requirements, analytics delivery, and governance.",
+      "insights": [
+        "Connect requirements to KPIs and analytical outputs so reports answer a defined business need.",
+        "Treat data quality and role-based access as part of the platform, alongside its visual design.",
+        "Combine automated refresh and reporting with controlled distribution to support recurring decisions."
+      ],
+      "body": "I designed and implemented an integrated Power BI platform with data pipelines, semantic models, reporting, and statistical forecasting using DAX. My responsibilities span business requirements, maintenance, performance, security, and delivery.\n\nThe platform includes data quality dashboards and controls, role-based access through RLS and DAX authorization, and automated executive reporting with Power BI Report Builder.",
+      "outcome": "Launched the platform and introduced automated reporting, controlled access, and data quality monitoring.",
+      "note": "Professional overview. Internal reports and program data are not published here.",
+      "embedUrl": "",
+      "mobileEmbedUrl": "",
+      "embedMode": "public",
+      "cover": "",
+      "documents": []
+    },
+    {
+      "id": "project-planning",
+      "slug": "project-planning",
+      "previousSlugs": [],
+      "title": "Project Planning Integration",
+      "brief": "From vendor submissions to a centralized view of project schedules and progress.",
+      "category": "Project management",
+      "type": "documentation",
+      "featured": true,
+      "published": true,
+      "tools": [
+        "Power BI",
+        "Planning templates",
+        "Database integration"
+      ],
+      "audience": "PMO teams, project managers, and vendor coordinators.",
+      "role": "Planning template design, data consolidation, and timeline visualization.",
+      "insights": [
+        "Standardized submissions make project information easier to combine and compare.",
+        "A shared timeline helps teams understand progress and coordinate delivery.",
+        "Design the input process for vendors as carefully as the final dashboard."
+      ],
+      "body": "I developed a vendor-friendly planning template and merged submissions into a centralized database with Power BI visualization. The work included a Gantt-based timeline to improve project and vendor tracking.",
+      "outcome": "Created an integrated planning approach connecting vendor submissions and project reporting.",
+      "note": "Professional overview. Project schedules and vendor information are not included.",
+      "embedUrl": "",
+      "mobileEmbedUrl": "",
+      "embedMode": "public",
+      "cover": "",
+      "documents": []
+    },
+    {
+      "id": "strategic-dashboards",
+      "slug": "strategic-dashboards",
+      "previousSlugs": [],
+      "title": "Strategic Performance Dashboards",
+      "brief": "Connecting OKRs and departmental goals in a strategic reporting view.",
+      "category": "Business intelligence",
+      "type": "documentation",
+      "featured": true,
+      "published": true,
+      "tools": [
+        "Power BI",
+        "OKRs",
+        "KPI design"
+      ],
+      "audience": "Strategy teams, departmental leaders, and decision-makers.",
+      "role": "Strategic dashboard development.",
+      "insights": [
+        "Relate performance measures to departmental goals to give the numbers context.",
+        "Use a strategic view to connect individual measures with broader objectives."
+      ],
+      "body": "I built strategic-level dashboards integrating OKRs and departmental goals. The work focuses on presenting performance information in a form that supports management discussions and business decisions.",
+      "outcome": "Built a reporting view connecting strategic objectives and departmental goals.",
+      "note": "Professional overview. Internal targets and performance figures are not displayed.",
+      "embedUrl": "",
+      "mobileEmbedUrl": "",
+      "embedMode": "public",
+      "cover": "",
+      "documents": []
+    },
+    {
+      "id": "pmo-dashboards",
+      "slug": "pmo-dashboards",
+      "previousSlugs": [],
+      "title": "PMO Project Dashboards",
+      "brief": "Project tracking and performance reporting for management teams.",
+      "category": "Project management",
+      "type": "documentation",
+      "featured": false,
+      "published": true,
+      "tools": [
+        "Power BI",
+        "Project tracking",
+        "Performance reporting"
+      ],
+      "audience": "PMO teams and management stakeholders.",
+      "role": "Dashboard design and deployment.",
+      "insights": [
+        "Translate project data into a clear view of execution and progress.",
+        "Align management reporting with the questions stakeholders need to answer."
+      ],
+      "body": "I designed and deployed Power BI dashboards for project tracking, supporting project performance insights and management reporting during my work with the MCIT PMO.",
+      "outcome": "Delivered dashboards supporting project tracking and management reporting.",
+      "note": "Professional overview. Internal project data is not displayed.",
+      "embedUrl": "",
+      "mobileEmbedUrl": "",
+      "embedMode": "public",
+      "cover": "",
+      "documents": []
+    }
+  ]
+}
