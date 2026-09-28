@@ -192,7 +192,13 @@
       "mobileEmbedUrl": "",
       "embedMode": "public",
       "cover": "",
-      "documents": []
+      "documents": [
+        {
+          "title": "Document",
+          "kind": "PDF",
+          "url": "https://alhuzali.com/assets/uploads/90e9b518-c544-44a4-b3a8-74ecaa0e1361.pdf"
+        }
+      ]
     },
     {
       "id": "project-planning",
