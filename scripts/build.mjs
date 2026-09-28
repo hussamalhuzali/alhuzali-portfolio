@@ -17,3 +17,8 @@ await write('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="
 await write('.nojekyll','');
 await mkdir(new URL('../admin/assets/',import.meta.url),{recursive:true});await cp(new URL('../public/style.css',import.meta.url),new URL('../admin/assets/style.css',import.meta.url));await cp(new URL('../public/site.js',import.meta.url),new URL('../admin/assets/site.js',import.meta.url));await cp(new URL('../public/favicon.svg',import.meta.url),new URL('../admin/assets/favicon.svg',import.meta.url));
 console.log(`Built homepage, project library, ${d.projects.length} project pages, redirects, sitemap and admin assets.`);
+
+// GitHub-only studio is also reachable from the main domain.
+await import('./build-admin.mjs');
+await cp(new URL('../studio-dist/',import.meta.url),new URL('admin/',root),{recursive:true});
+await rm(new URL('admin/CNAME',root));
