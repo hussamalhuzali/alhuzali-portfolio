@@ -1,3 +1,13 @@
+## GitHub-only Studio (current deployment)
+
+The admin can run on free GitHub Pages in the `alhuzali-admin` repository, at `admin.alhuzali.com`. Build its static files with `node scripts/build-admin.mjs`. This replaces the separate paid/account-dependent Worker setup for the initial deployment. All authored source stays here; `studio-dist/` is the deployable admin bundle.
+
+GitHub authenticates API writes using an owner-supplied, expiring fine-grained token scoped only to `alhuzali-portfolio`: Contents read/write and Actions read. The token stays in JavaScript closure memory, is never written to storage or source, and is sent only to `https://api.github.com`. Reload/sign out clears it. The static login screen and editor source are public; security for repository writes is enforced by GitHub, not by hiding client-side code.
+
+Drafts and pending upload bytes are stored in IndexedDB on the owner's device, not a private cloud backend. Use a trusted personal device. Selected files and public content are committed together; unpublished projects stay local. Published files and repository history are public. Changed remote content blocks a stale publication; branch updates never force-push. Export the draft text before clearing local drafts. Keep original copies of pending files. A visual draft preview is local and does not run report interactions.
+
+The Worker implementation below remains an optional alternative and is not required for this deployment.
+
 # Hussam Alhuzali — Professional Portfolio
 
 A light, responsive professional portfolio with dedicated project URLs and a separate, owner-only editing studio.
@@ -49,7 +59,7 @@ Optional GitHub project-site preview prefix:
 SITE_BASE_PATH=/alhuzali-portfolio npm run build
 ```
 
-The Actions workflow obtains the correct prefix from GitHub Pages. With the custom domain configured, the prefix is empty.
+The Actions workflow builds at the domain root for alhuzali.com.
 
 ## Admin deployment
 
