@@ -23,7 +23,8 @@ jobs:
         id: pages
       - run: npm run check
         env:
-          SITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          # alhuzali.com serves this portfolio at the domain root.
+          SITE_BASE_PATH: ''
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
