@@ -108,7 +108,7 @@
       "issuer": "PMI",
       "status": "Certified",
       "short": "PMP",
-      "url": ""
+      "url": "https://www.credly.com/badges/fca45cb0-5a9f-4fa0-a85b-3f2ca93dc0c6/public_url"
     },
     {
       "name": "Professional Scrum Master I",
@@ -192,13 +192,7 @@
       "mobileEmbedUrl": "",
       "embedMode": "public",
       "cover": "",
-      "documents": [
-        {
-          "title": "Document",
-          "kind": "PDF",
-          "url": "https://alhuzali.com/assets/uploads/90e9b518-c544-44a4-b3a8-74ecaa0e1361.pdf"
-        }
-      ]
+      "documents": []
     },
     {
       "id": "project-planning",
